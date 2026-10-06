@@ -1,4 +1,3 @@
-```markdown
 # Guía interactiva de metodologías de desarrollo de software
 
 ## Datos académicos
@@ -42,7 +41,7 @@ Aplicar y demostrar los conceptos fundamentales de las metodologías de desarrol
 Obtén una copia limpia del repositorio y construye la imagen localmente ejecutando los siguientes comandos en tu terminal:
 
 ```bash
-git clone [https://github.com/a364693-cmd/guia-metodologias.git](https://github.com/a364693-cmd/guia-metodologias.git)
+git clone https://github.com/a364693-cmd/guia-metodologias.git
 cd guia-metodologias
 docker build -t guia-metodologias:latest .
 
