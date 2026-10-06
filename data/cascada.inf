@@ -1,2 +1,5 @@
 [fase de requisitos] .- Primera etapa secuencial donde se documentan las necesidades del cliente.
-[diseno] .- Etapa donde se define la arquitectura tecnica del sistema antes de programar.
+[diseno] .- Etapa donde se define la arquitectura tecnica y estructura del sistema antes de programar.
+[implementacion] .- Fase de codificacion donde se construyen los modulos del software.
+[verificacion] .- Etapa de pruebas integrales para asegurar que el sistema cumple con los requisitos.
+[mantenimiento] .- Fase posterior a la entrega para corregir errores y realizar mejoras.

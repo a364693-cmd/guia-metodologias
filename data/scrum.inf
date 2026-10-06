@@ -1,3 +1,5 @@
-[sprint] .- Es el nombre que recibe cada ciclo o iteracion dentro de un proyecto.
-[burndown chart] .- Representacion grafica del trabajo por hacer en un proyecto a lo largo del tiempo.
-[product owner] .- El Product Owner asegura que el equipo Scrum trabaje de acuerdo con los objetivos del negocio.
+[sprint] .- Ciclo o iteracion de trabajo de duracion fija (1 a 4 semanas) dentro del proyecto.
+[burndown chart] .- Representacion grafica del trabajo restante a lo largo del tiempo.
+[product owner] .- Rol encargado de priorizar el backlog y representar la vision del negocio.
+[scrum master] .- Facilitador del equipo que remueve impedimentos y asegura las practicas de Scrum.
+[sprint backlog] .- Lista de tareas seleccionadas del Product Backlog para ejecutarse en el Sprint actual.

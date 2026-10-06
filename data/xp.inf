@@ -1,2 +1,4 @@
 [pair programming] .- Tecnica donde dos desarrolladores trabajan juntos en la misma estacion de trabajo.
 [tdd] .- Desarrollo guiado por pruebas unitarias escritas antes del codigo de produccion.
+[integracion continua] .- Practica de incorporar y probar cambios de codigo de forma automatizada varias veces al dia.
+[refactorizacion] .- Reestructuracion del codigo existente para mejorar su legibilidad sin cambiar su comportamiento.

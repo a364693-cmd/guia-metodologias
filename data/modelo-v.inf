@@ -1,1 +1,4 @@
 [pruebas unitarias] .- Fase de validacion directamente asociada a la etapa de codificacion.
+[pruebas de integracion] .- Validacion asociada al diseno de arquitectura del sistema.
+[pruebas de sistema] .- Verificacion integral vinculada al analisis de requisitos funcionales.
+[verificacion y validacion] .- Principio de que cada etapa de desarrollo tiene una fase correspondiente de prueba.

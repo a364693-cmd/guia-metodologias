@@ -1,2 +1,4 @@
 [wip] .- Work In Progress representa el limite de tareas simultaneas permitidas en cada columna.
 [tablero kanban] .- Herramienta visual para mapear y optimizar el flujo de trabajo.
+[lead time] .- Tiempo total transcurrido desde que se solicita una tarea hasta su entrega final.
+[cycle time] .- Tiempo que le toma al equipo completar el trabajo una vez que se inicia.
