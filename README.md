@@ -1,4 +1,5 @@
-## Guía interactiva de metodologías de desarrollo de software
+```markdown
+# Guía interactiva de metodologías de desarrollo de software
 
 ## Datos académicos
 
@@ -9,7 +10,7 @@
 | **Carrera** | Ingeniería en Ciencias de la Computación |
 | **Materia** | Desarrollo Basado en Plataformas |
 | **Docente** | Mtro. Luis Antonio Ramírez Martínez |
-| **Actividad** | Guía interactiva de metodologías de desarrollo de software |
+| **Actividad** | Proyecto Primer Parcial. Guía interactiva de metodologías de desarrollo de software |
 | **Alumno** | Alisandro Mendoza Espitia, Andrea Dominguez Rodriguez, Marcos Iram Casas Mora |
 | **Matrícula** | 364693, 374234, 361853 |
 | **Fecha de entrega** | 08/10/2026 |
@@ -36,7 +37,7 @@ Aplicar y demostrar los conceptos fundamentales de las metodologías de desarrol
 - Docker (versión 20.x o superior recomendada)
 - Git
 
-## Instalación y Ejecución Local
+## Instalación
 
 Obtén una copia limpia del repositorio y construye la imagen localmente ejecutando los siguientes comandos en tu terminal:
 
@@ -44,30 +45,46 @@ Obtén una copia limpia del repositorio y construye la imagen localmente ejecuta
 git clone [https://github.com/a364693-cmd/guia-metodologias.git](https://github.com/a364693-cmd/guia-metodologias.git)
 cd guia-metodologias
 docker build -t guia-metodologias:latest .
+
 ```
 
-## Ejecución desde Docker Hub
+## Ejecución
+
+**Ejecución Local:**
+
+```bash
+# Ejecutar el menú de metodologías ágiles
+docker run -it guia-metodologias:latest -a
+
+# Ejecutar el menú de metodologías tradicionales
+docker run -it guia-metodologias:latest -t
+
+```
+
+**Ejecución desde Docker Hub:**
 
 Para ejecutar la aplicación directamente desde Docker Hub sin necesidad de clonar el código fuente, utiliza los siguientes comandos obligatorios con las banderas interactivas (`-it`):
 
 ```bash
 # Descargar la imagen
-docker pull [markliaris]/guia-metodologias:latest
+docker pull markliaris/guia-metodologias:latest
 
 # Ejecutar el menú de metodologías ágiles
-docker run -it [markliaris]/guia-metodologias:latest -a
+docker run -it markliaris/guia-metodologias:latest -a
 
 # Ejecutar el menú de metodologías tradicionales
-docker run -it [markliaris]/guia-metodologias:latest -t
+docker run -it markliaris/guia-metodologias:latest -t
+
 ```
 
 ## Funcionalidades / uso
 
 La aplicación se opera enteramente desde la terminal a través de un menú interactivo. Las principales operaciones son:
-- **Agregar información:** Permite registrar nuevos conceptos y definiciones sin borrar los datos existentes.
-- **Buscar información:** Permite localizar conceptos específicos utilizando expresiones regulares.
-- **Eliminar información:** Borra un registro en específico conservando el resto de los datos.
-- **Leer base de información:** Imprime en pantalla todos los conceptos y definiciones almacenados para la metodología seleccionada.
+
+* **Agregar información:** Permite registrar nuevos conceptos y definiciones sin borrar los datos existentes.
+* **Buscar información:** Permite localizar conceptos específicos utilizando expresiones regulares.
+* **Eliminar información:** Borra un registro en específico conservando el resto de los datos.
+* **Leer base de información:** Imprime en pantalla todos los conceptos y definiciones almacenados para la metodología seleccionada.
 
 La navegación permanece activa tras cada operación hasta que el usuario decida salir explícitamente.
 
@@ -85,10 +102,15 @@ guia-metodologias/
 |-- modelo-v.inf
 |-- Dockerfile
 `-- README.md
+
 ```
 
-## Autores
+## Autor
 
 Alisandro Mendoza Espitia — 364693
-Andrea Dominguez Rodriguez — 374234 
+Andrea Dominguez Rodriguez — 374234
 Marcos Iram Casas Mora — 361853
+
+```
+
+```
