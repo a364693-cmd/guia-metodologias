@@ -61,10 +61,10 @@ docker build -t guia-metodologias:latest .
 
 - Para ejecutar el script localmente, utiliza los parámetros -a o -t según la guía que desees consultar:
 
-# Consultar o gestionar el menú de Metodologías Ágiles
+## Consultar o gestionar el menú de Metodologías Ágiles
 ./app.sh -a
 
-# Consultar o gestionar el menú de Metodologías Tradicionales
+## Consultar o gestionar el menú de Metodologías Tradicionales
 ./app.sh -t
 
 ```
