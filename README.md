@@ -51,12 +51,21 @@ docker build -t guia-metodologias:latest .
 
 **Ejecución Local:**
 
-```bash
-# Ejecutar el menú de metodologías ágiles
-docker run -it guia-metodologias:latest -a
+### Requisitos Previos
+- Abrir la terminal y asegurarse de estar ubicado en la **carpeta raíz del proyecto**:
+   ```bash
+  Ej. cd ~/guia-metodologias
 
-# Ejecutar el menú de metodologías tradicionales
-docker run -it guia-metodologias:latest -t
+- Dar permisos de ejecución al script principal (solo la primera vez):
+    chmod +x app.sh
+
+- Para ejecutar el script localmente, utiliza los parámetros -a o -t según la guía que desees consultar:
+
+# Consultar o gestionar el menú de Metodologías Ágiles
+./app.sh -a
+
+# Consultar o gestionar el menú de Metodologías Tradicionales
+./app.sh -t
 
 ```
 
